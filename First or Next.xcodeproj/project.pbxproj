@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E5D58B8B63E7A45DDD541F3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B360B9411CEFB19E15753154 /* Pods.framework */; };
 		F762A0D51C203817007C3622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A0D41C203817007C3622 /* AppDelegate.swift */; };
-		F762A0D71C203817007C3622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A0D61C203817007C3622 /* ViewController.swift */; };
 		F762A0DA1C203817007C3622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F762A0D81C203817007C3622 /* Main.storyboard */; };
 		F762A0DC1C203817007C3622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F762A0DB1C203817007C3622 /* Assets.xcassets */; };
 		F762A0DF1C203817007C3622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F762A0DD1C203817007C3622 /* LaunchScreen.storyboard */; };
@@ -22,6 +22,14 @@
 		F762A1121C203818007C3622 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A1111C203818007C3622 /* ExtensionDelegate.swift */; };
 		F762A1141C203818007C3622 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A1131C203818007C3622 /* NotificationController.swift */; };
 		F762A1161C203818007C3622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F762A1151C203818007C3622 /* Assets.xcassets */; };
+		F762A12D1C2038C4007C3622 /* MainScreenWC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A12C1C2038C4007C3622 /* MainScreenWC.swift */; };
+		F762A12F1C2038E6007C3622 /* AttemptsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A12E1C2038E6007C3622 /* AttemptsScreen.swift */; };
+		F762A1311C2039E5007C3622 /* WatchCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A1301C2039E5007C3622 /* WatchCore.swift */; };
+		F762A1331C2041BE007C3622 /* MainScreenIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A1321C2041BE007C3622 /* MainScreenIC.swift */; };
+		F762A1351C204233007C3622 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A1341C204233007C3622 /* RegisterVC.swift */; };
+		F762A1371C20425A007C3622 /* UserDataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A1361C20425A007C3622 /* UserDataSingleton.swift */; };
+		F762A1391C20434B007C3622 /* UserHomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A1381C20434B007C3622 /* UserHomePageVC.swift */; };
+		F762A13D1C2044F9007C3622 /* AttemptsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762A13C1C2044F9007C3622 /* AttemptsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,9 +89,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1EF867844855357F8067E370 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD9CF6EB490F960EC4C7B1B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B360B9411CEFB19E15753154 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F762A0D11C203817007C3622 /* First or Next.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First or Next.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F762A0D41C203817007C3622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F762A0D61C203817007C3622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F762A0D91C203817007C3622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F762A0DB1C203817007C3622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F762A0DE1C203817007C3622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,6 +115,15 @@
 		F762A1131C203818007C3622 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		F762A1151C203818007C3622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F762A1171C203818007C3622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F762A12B1C2038C3007C3622 /* First or Next WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "First or Next WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		F762A12C1C2038C4007C3622 /* MainScreenWC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenWC.swift; sourceTree = "<group>"; };
+		F762A12E1C2038E6007C3622 /* AttemptsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttemptsScreen.swift; sourceTree = "<group>"; };
+		F762A1301C2039E5007C3622 /* WatchCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchCore.swift; sourceTree = "<group>"; };
+		F762A1321C2041BE007C3622 /* MainScreenIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenIC.swift; sourceTree = "<group>"; };
+		F762A1341C204233007C3622 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F762A1361C20425A007C3622 /* UserDataSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataSingleton.swift; sourceTree = "<group>"; };
+		F762A1381C20434B007C3622 /* UserHomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHomePageVC.swift; sourceTree = "<group>"; };
+		F762A13C1C2044F9007C3622 /* AttemptsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttemptsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5D58B8B63E7A45DDD541F3 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +159,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6F9D7533EC5E767A2793ACB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EF867844855357F8067E370 /* Pods.debug.xcconfig */,
+				5BD9CF6EB490F960EC4C7B1B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5050F78C23055D73C011D79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B360B9411CEFB19E15753154 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F762A0C81C203817007C3622 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +185,8 @@
 				F762A0FD1C203818007C3622 /* First or Next WatchKit App */,
 				F762A10C1C203818007C3622 /* First or Next WatchKit Extension */,
 				F762A0D21C203817007C3622 /* Products */,
+				A6F9D7533EC5E767A2793ACB /* Pods */,
+				C5050F78C23055D73C011D79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,11 +206,15 @@
 			isa = PBXGroup;
 			children = (
 				F762A0D41C203817007C3622 /* AppDelegate.swift */,
-				F762A0D61C203817007C3622 /* ViewController.swift */,
 				F762A0D81C203817007C3622 /* Main.storyboard */,
 				F762A0DB1C203817007C3622 /* Assets.xcassets */,
 				F762A0DD1C203817007C3622 /* LaunchScreen.storyboard */,
+				F762A1321C2041BE007C3622 /* MainScreenIC.swift */,
+				F762A1341C204233007C3622 /* RegisterVC.swift */,
 				F762A0E01C203817007C3622 /* Info.plist */,
+				F762A1381C20434B007C3622 /* UserHomePageVC.swift */,
+				F762A13C1C2044F9007C3622 /* AttemptsCell.swift */,
+				F762A1361C20425A007C3622 /* UserDataSingleton.swift */,
 			);
 			path = "First or Next";
 			sourceTree = "<group>";
@@ -199,7 +242,11 @@
 			children = (
 				F762A0FE1C203818007C3622 /* Interface.storyboard */,
 				F762A1011C203818007C3622 /* Assets.xcassets */,
+				F762A12C1C2038C4007C3622 /* MainScreenWC.swift */,
 				F762A1031C203818007C3622 /* Info.plist */,
+				F762A1301C2039E5007C3622 /* WatchCore.swift */,
+				F762A12B1C2038C3007C3622 /* First or Next WatchKit App-Bridging-Header.h */,
+				F762A12E1C2038E6007C3622 /* AttemptsScreen.swift */,
 			);
 			path = "First or Next WatchKit App";
 			sourceTree = "<group>";
@@ -232,10 +279,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F762A1221C203818007C3622 /* Build configuration list for PBXNativeTarget "First or Next" */;
 			buildPhases = (
+				CF3593F3379E449CB595AAFE /* Check Pods Manifest.lock */,
 				F762A0CD1C203817007C3622 /* Sources */,
 				F762A0CE1C203817007C3622 /* Frameworks */,
 				F762A0CF1C203817007C3622 /* Resources */,
 				F762A1211C203818007C3622 /* Embed Watch Content */,
+				EC8F17DCD9249CF061759E9D /* Embed Pods Frameworks */,
+				89542D66DEE47D553BBED61E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -417,13 +467,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89542D66DEE47D553BBED61E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3593F3379E449CB595AAFE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8F17DCD9249CF061759E9D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F762A0CD1C203817007C3622 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F762A0D71C203817007C3622 /* ViewController.swift in Sources */,
+				F762A1351C204233007C3622 /* RegisterVC.swift in Sources */,
+				F762A1331C2041BE007C3622 /* MainScreenIC.swift in Sources */,
+				F762A1371C20425A007C3622 /* UserDataSingleton.swift in Sources */,
 				F762A0D51C203817007C3622 /* AppDelegate.swift in Sources */,
+				F762A1391C20434B007C3622 /* UserHomePageVC.swift in Sources */,
+				F762A13D1C2044F9007C3622 /* AttemptsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +549,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F762A12F1C2038E6007C3622 /* AttemptsScreen.swift in Sources */,
+				F762A12D1C2038C4007C3622 /* MainScreenWC.swift in Sources */,
+				F762A1311C2039E5007C3622 /* WatchCore.swift in Sources */,
 				F762A1141C203818007C3622 /* NotificationController.swift in Sources */,
 				F762A1121C203818007C3622 /* ExtensionDelegate.swift in Sources */,
 				F762A1101C203818007C3622 /* InterfaceController.swift in Sources */,
@@ -619,13 +724,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = First_or_Next_WatchKit_Extension;
 				INFOPLIST_FILE = "First or Next WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CUWCS.First-or-Next.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "First or Next WatchKit App/First or Next WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -635,13 +744,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = First_or_Next_WatchKit_Extension;
 				INFOPLIST_FILE = "First or Next WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CUWCS.First-or-Next.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "First or Next WatchKit App/First or Next WatchKit App-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
@@ -649,6 +761,7 @@
 		};
 		F762A1231C203818007C3622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF867844855357F8067E370 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "First or Next/Info.plist";
@@ -660,6 +773,7 @@
 		};
 		F762A1241C203818007C3622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD9CF6EB490F960EC4C7B1B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "First or Next/Info.plist";
@@ -736,6 +850,7 @@
 				F762A11C1C203818007C3622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F762A11E1C203818007C3622 /* Build configuration list for PBXNativeTarget "First or Next WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -744,6 +859,7 @@
 				F762A1201C203818007C3622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F762A1221C203818007C3622 /* Build configuration list for PBXNativeTarget "First or Next" */ = {
 			isa = XCConfigurationList;
@@ -752,6 +868,7 @@
 				F762A1241C203818007C3622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F762A1251C203818007C3622 /* Build configuration list for PBXNativeTarget "First or NextTests" */ = {
 			isa = XCConfigurationList;
@@ -760,6 +877,7 @@
 				F762A1271C203818007C3622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F762A1281C203818007C3622 /* Build configuration list for PBXNativeTarget "First or NextUITests" */ = {
 			isa = XCConfigurationList;
@@ -768,6 +886,7 @@
 				F762A12A1C203818007C3622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

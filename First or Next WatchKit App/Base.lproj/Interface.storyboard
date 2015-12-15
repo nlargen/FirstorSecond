@@ -1,16 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--MainScreenWC-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller identifier="MainScreenWC" id="AgC-eL-Hgc" customClass="MainScreenWC" customModule="First_or_Next_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="86" alignment="left" layout="vertical" id="8yh-rw-XUI">
+                            <items>
+                                <button width="1" alignment="left" title="First Book" id="6VJ-Ce-sTT">
+                                    <connections>
+                                        <action selector="FirstBookPressed" destination="AgC-eL-Hgc" id="uRe-cG-bma"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="FXI-fo-dQL"/>
+                                <button width="1" alignment="left" title="Second Book" id="ghP-2M-AyD">
+                                    <connections>
+                                        <action selector="SecondBookPressed" destination="AgC-eL-Hgc" id="S5P-al-KxF"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Stats" id="Ob0-Bn-962">
+                            <connections>
+                                <action selector="StartButtonPressed" destination="AgC-eL-Hgc" id="nDc-xm-OGI"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="firstbookout" destination="6VJ-Ce-sTT" id="BmH-i3-b4z"/>
+                        <outlet property="secondbookout" destination="ghP-2M-AyD" id="L6M-ge-nlb"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--AttemptsScreen-->
+        <scene sceneID="iO0-4B-0CR">
+            <objects>
+                <controller identifier="AttemptsScreen" id="Mr9-zE-3Vi" customClass="AttemptsScreen" customModule="First_or_Next_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="87.5" alignment="left" id="l49-sX-VtJ">
+                            <items>
+                                <table alignment="left" id="dyr-OJ-qfR">
+                                    <items>
+                                        <tableRow id="FFm-x4-McC">
+                                            <group key="rootItem" width="1" alignment="left" id="zwM-Kp-FrR"/>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Reset" id="7LD-wA-auf"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="380" y="345"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,7 +80,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="First_or_Next_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
